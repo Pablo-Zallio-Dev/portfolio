@@ -23,12 +23,12 @@ const Header = () => {
       const stateMenu = useMenuStore((state) => state.stateMenu);
       const logoMobile =
             theme !== "light"
-                  ? "/public/assets/images/logo_dark_mobile.webp"
-                  : "/public/assets/images/logo_mobile.webp";
+                  ? "../assets/images/logo_dark_mobile.webp"
+                  : "../assets/images/logo_mobile.webp";
       const logoDesktop =
             theme !== "light"
-                  ? "/public/assets/images/logo_dark.webp"
-                  : "/public/assets/images/logo.webp";
+                  ? "../assets/images/logo_dark.webp"
+                  : "../assets/images/logo.webp";
 
       return (
             <>
