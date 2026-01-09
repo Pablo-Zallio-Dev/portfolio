@@ -34,31 +34,31 @@ const Projects = () => {
     <>
       <section
         id="projects"
-        className=" flex flex-col items-center justify-center gap-6 w-full px-3 md:pt-20  "
+        className=" flex flex-col items-center justify-center gap-6 w-full pt-8 px-3 md:pt-20  "
       >
         {/* Titulo Proyectos */}
         <h1 className=" text-2xl font-bold md:text-4xl  ">Proyectos Destacados</h1>
 
         {/* Texto proyectos */}
-        <p className=" text-text text-xs text-center leading-5 md:w-80 md:text-base  ">
+        <p className=" text-text text-xs text-center leading-5 md:w-110 md:text-base  ">
           Una selección de proyectos que demuestran mi experiencia en desarrollo
           frontend.
         </p>
 
         {/* Contenedor de tarjetas */}
         <section className=" flex justify-center w-full ">
-          <section className=" grid grid-cols-1 justify-items-center gap-8 w-full md:w-200 2xl:w-250 py-6 rounded-xl md:grid-cols-2 md:px-6 xl:gap-10  ">
+          <section className=" flex flex-wrap justify-center w-75 md:w-200 xl:w-300  items-center gap-8  py-6 rounded-xl  md:px-6  ">
             {
 
                   projects.map((project) => (
-                         <section className="  bg-secondary-foreground w-72 xl:w-96 2xl:w-md shadow-lg py-6 rounded-xl border border-border/50 ">
+                         <section className="  bg-secondary-foreground w-75 xl:w-120 shadow-lg py-6 rounded-xl border border-border/50 transition-all duration-300 hover:-translate-y-3 hover:shadow-xl ">
 
                                     <section className=" overflow-hidden ">
                                           <img src={project.image} alt={`Imagen del proyecto ${project.title}`} className=" aspect-video w-full object-cover object-top " />
                                     </section>
                                     <section className=" flex flex-col justify-between gap-3 h-52 p-6 md:h-60 ">
                                           <h2 className=" font-bold md:text-lg ">{project.title}</h2>
-                                          <p className=" line-clamp-2 h-9 text-text text-[.7rem] md:text-xs ">{project.description}</p>
+                                          <p className=" h-12 text-text text-[.7rem] md:text-xs ">{project.description}</p>
 
                                           <section className=" flex gap-1  ">
                                                 {
@@ -97,3 +97,11 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+/* 
+
+
+<section className=" grid grid-cols-1 justify-items-center gap-8 w-full md:w-200 2xl:w-250 py-6 rounded-xl md:grid-cols-2 md:px-6 xl:gap-10  ">
+
+*/

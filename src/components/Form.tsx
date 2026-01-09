@@ -140,7 +140,7 @@ const Form = () => {
             }
           <button
             type="submit"
-            className=" flex justify-center items-center gap-2 w-full bg-primary text-background text-[.7rem] p-1.5 border border-border rounded-md "
+            className=" flex justify-center items-center gap-2 w-full bg-primary text-background text-[.7rem] p-1.5 border border-border rounded-md transition-all duration-150 hover:shadow-lg hover:-translate-y-0.5 md:hover:bg-primary-hover "
           >
             <BsSend />
             Enviar mensaje

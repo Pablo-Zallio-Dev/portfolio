@@ -2,9 +2,12 @@ import imageAbout from "../../public/assets/images/image-about.webp";
 
 import projectsTech from "../json/projectsTech.json";
 
+import { useThemeStore } from "../store/store";
+
 export interface Project {
   id: string;
-  image: string;
+  imageLight?: string;
+  imageDark?: string;
   title: string;
   link: string;
 }
@@ -12,6 +15,8 @@ export interface Project {
 const projects: Project[] = Object.values(projectsTech);
 
 const About = () => {
+
+      const theme = useThemeStore((state) => state.theme)
   return (
     <>
       <section
@@ -56,7 +61,10 @@ const About = () => {
             <section className=" flex flex-wrap justify-center gap-4 md:gap-10 lg:gap-14 ">
               {projects.map((tech) => (
                 <section className="  flex flex-col items-center gap-2 p-2 w-22 rounded-md    transition-all duration-200 ">
-                  <img src={tech.image} alt={`Icono de  ${tech.title}`} className=" w-6 md:w-8 " />
+
+                      <img src={(theme === "dark" && tech.imageDark) ? tech.imageDark : tech.imageLight} alt={`Icono de  ${tech.title}`} className=" w-6 md:w-8 " />
+                 
+
                   <a
                     className="text-xs font-semibold text-text p-1 rounded-md md:text-sm md:transition-all md:duration-200 hover:text-primary hover:shadow-lg  "
                     href={tech.link}

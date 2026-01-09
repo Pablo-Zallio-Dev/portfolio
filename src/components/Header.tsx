@@ -105,7 +105,8 @@ const Header = () => {
                               </section>
 
                               <a
-                                    href=""
+                                    href="/public/CV - Pablo Zallio (Español).pdf"
+                                    download={"CV - Pablo Zallio (Español).pdf"}
                                     className=" flex items-center gap-2 px-2 text-xs text-secondary  font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer transition-all duration-200 hover:ring hover:ring-primary hover:bg-primary/10  "
                               >
                                     {" "}

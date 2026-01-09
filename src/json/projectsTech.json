@@ -1,61 +1,71 @@
 {
       "tech_01":{
             "id": "01",
-            "image": "../assets/images/image_json/icon-tech-01.png",
+            "imageLight": "../assets/images/image_json/icon-tech-01.png",
+            "imageDark": "",
             "title": "HTML",
             "link": "https://developer.mozilla.org/es/docs/Web/HTML"
       },
       "tech_02":{
             "id": "02",
-            "image": "../assets/images/image_json/icon-tech-02.png",
+            "imageLight": "../assets/images/image_json/icon-tech-02.png",
+            "imageDark": "",
             "title": "CSS",
             "link": "https://developer.mozilla.org/es/docs/Web/CSS"
       },
       "tech_03":{
             "id": "03",
-            "image": "../assets/images/image_json/icon-tech-03.png",
+            "imageLight": "../assets/images/image_json/icon-tech-03.png",
+            "imageDark": "",
             "title": "JavaScript",
             "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
       },
       "tech_04":{
             "id": "04",
-            "image": "../assets/images/image_json/icon-tech-04.png",
+            "imageLight": "../assets/images/image_json/icon-tech-04.png",
+            "imageDark": "",
             "title": "Typescript",
             "link": "https://www.typescriptlang.org/"
       },
       "tech_05":{
             "id": "05",
-            "image": "../assets/images/image_json/icon-tech-05.png",
+            "imageLight": "../assets/images/image_json/icon-tech-05.png",
+            "imageDark": "",
             "title": "React JS",
             "link": "https://es.react.dev/"
       },
       "tech_06":{
             "id": "06",
-            "image": "../assets/images/image_json/icon-tech-06.png",
+            "imageLight": "../assets/images/image_json/icon-tech-06.png",
+            "imageDark": "",
             "title": "Tailwind",
             "link": "https://tailwindcss.com/"
       },
       "tech_07":{
             "id": "07",
-            "image": "../assets/images/image_json/icon-tech-07.png",
+            "imageLight": "../assets/images/image_json/icon-tech-07.png",
+            "imageDark": "",
             "title": "Bootstrap",
             "link": "https://getbootstrap.com/"
       },
       "tech_08":{
             "id": "08",
-            "image": "../assets/images/image_json/icon-tech-08.png",
+            "imageLight": "../assets/images/image_json/icon-tech-08.png",
+            "imageDark": "",
             "title": "Sass",
             "link": "https://sass-lang.com/"
       },
        "tech_09":{
             "id": "09",
-            "image": "../assets/images/image_json/icon-tech-09.png",
+            "imageLight": "../assets/images/image_json/icon-tech-09.svg",
+            "imageDark": "../assets/images/image_json/icon-tech-09_dark.svg",
             "title": "GitHub",
             "link": "https://github.com"
       },
        "tech_10":{
             "id": "10",
-            "image": "../assets/images/image_json/icon-tech-10.png",
+            "imageLight": "../assets/images/image_json/icon-tech-10.png",
+            "imageDark":"",
             "title": "Storybook",
             "link": "https://storybook.js.org/"
       }
