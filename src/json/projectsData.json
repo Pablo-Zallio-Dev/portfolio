@@ -1,7 +1,7 @@
 {
       "project_01": {
             "id": "01",
-            "image": "../../public/assets/images/image_json/project_01.png",
+            "image": "../assets/images/image_json/project_01.png",
             "title": "EG Design System",
             "description": "Systema de Diseño para interfaces y componentes web",
             "category": "Design System",
@@ -19,7 +19,7 @@
       },
       "project_02": {
             "id": "02",
-            "image": "../../public/assets/images/image_json/project_02.png",
+            "image": "../assets/images/image_json/project_02.png",
             "title": "Landing Page - Puro Ganado",
             "description": "Landing page de productos cárnicos. Navegación rápida enfocada en la frescura del género, la identidad y ubicación local.",
             "category": "Landing page",
@@ -36,7 +36,7 @@
       },
       "project_03": {
             "id": "03",
-            "image": "../../public/assets/images/image_json/project_03.png",
+            "image": "../assets/images/image_json/project_03.png",
             "title": "App web - Dictionary",
             "description": "Diccionario con soporte de audio para pronunciación, gestión de temas visuales y una interfaz limpia centrada en la experiencia del usuario.  ",
             "category": "Landing page",

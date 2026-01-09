@@ -1,61 +1,61 @@
 {
       "tech_01":{
             "id": "01",
-            "image": "../../public/assets/images/image_json/icon-tech-01.png",
+            "image": "../assets/images/image_json/icon-tech-01.png",
             "title": "HTML",
             "link": "https://developer.mozilla.org/es/docs/Web/HTML"
       },
       "tech_02":{
             "id": "02",
-            "image": "../../public/assets/images/image_json/icon-tech-02.png",
+            "image": "../assets/images/image_json/icon-tech-02.png",
             "title": "CSS",
             "link": "https://developer.mozilla.org/es/docs/Web/CSS"
       },
       "tech_03":{
             "id": "03",
-            "image": "../../public/assets/images/image_json/icon-tech-03.png",
+            "image": "../assets/images/image_json/icon-tech-03.png",
             "title": "JavaScript",
             "link": "https://developer.mozilla.org/es/docs/Web/JavaScript"
       },
       "tech_04":{
             "id": "04",
-            "image": "../../public/assets/images/image_json/icon-tech-04.png",
+            "image": "../assets/images/image_json/icon-tech-04.png",
             "title": "Typescript",
             "link": "https://www.typescriptlang.org/"
       },
       "tech_05":{
             "id": "05",
-            "image": "../../public/assets/images/image_json/icon-tech-05.png",
+            "image": "../assets/images/image_json/icon-tech-05.png",
             "title": "React JS",
             "link": "https://es.react.dev/"
       },
       "tech_06":{
             "id": "06",
-            "image": "../../public/assets/images/image_json/icon-tech-06.png",
+            "image": "../assets/images/image_json/icon-tech-06.png",
             "title": "Tailwind",
             "link": "https://tailwindcss.com/"
       },
       "tech_07":{
             "id": "07",
-            "image": "../../public/assets/images/image_json/icon-tech-07.png",
+            "image": "../assets/images/image_json/icon-tech-07.png",
             "title": "Bootstrap",
             "link": "https://getbootstrap.com/"
       },
       "tech_08":{
             "id": "08",
-            "image": "../../public/assets/images/image_json/icon-tech-08.png",
+            "image": "../assets/images/image_json/icon-tech-08.png",
             "title": "Sass",
             "link": "https://sass-lang.com/"
       },
        "tech_09":{
             "id": "09",
-            "image": "../../public/assets/images/image_json/icon-tech-09.png",
+            "image": "../assets/images/image_json/icon-tech-09.png",
             "title": "GitHub",
             "link": "https://github.com"
       },
        "tech_10":{
             "id": "10",
-            "image": "../../public/assets/images/image_json/icon-tech-10.png",
+            "image": "../assets/images/image_json/icon-tech-10.png",
             "title": "Storybook",
             "link": "https://storybook.js.org/"
       }
