@@ -1,0 +1,56 @@
+{
+      "project_01": {
+            "id": "01",
+            "image": "../../public/assets/images/image_json/project_01.png",
+            "title": "EG Design System",
+            "description": "Systema de Diseño para interfaces y componentes web",
+            "category": "Design System",
+            "technologies": [
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Storybook"
+            ],
+            "links": {
+                  "demo": "https://egdev6-design-system.netlify.app/?path=/docs/design-system-welcome--docs",
+                  "code": "https://github.com/egdev6/design-system"
+            },
+            "uiStyle": "Dark dashboard"
+      },
+      "project_02": {
+            "id": "02",
+            "image": "../../public/assets/images/image_json/project_02.png",
+            "title": "Landing Page - Puro Ganado",
+            "description": "Landing page de productos cárnicos. Navegación rápida enfocada en la frescura del género, la identidad y ubicación local.",
+            "category": "Landing page",
+            "technologies": [
+                  "HTML",
+                  "CSS",
+                  "JavaScript"
+            ],
+            "links": {
+                  "demo": "https://puro-ganado.vercel.app/"
+                  
+            },
+            "uiStyle": "Dark dashboard"
+      },
+      "project_03": {
+            "id": "03",
+            "image": "../../public/assets/images/image_json/project_03.png",
+            "title": "App web - Dictionary",
+            "description": "Diccionario con soporte de audio para pronunciación, gestión de temas visuales y una interfaz limpia centrada en la experiencia del usuario.  ",
+            "category": "Landing page",
+            "technologies": [
+                  "HTML",
+                  "CSS",
+                  "JavaScript"
+            ],
+            "links": {
+                  "demo": "https://fem-dictionary-web-app.vercel.app/#House",
+                  "code": "https://github.com/Pablo-Zallio-Dev/dictionary-app"
+                  
+            },
+            "uiStyle": "Dark dashboard"
+      }
+      
+}
