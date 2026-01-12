@@ -34,7 +34,7 @@ const Projects = () => {
     <>
       <section
         id="projects"
-        className=" flex flex-col items-center justify-center gap-6 w-full pt-8 px-3 md:pt-20  "
+        className=" flex flex-col items-center justify-center gap-6 w-full pt-8 px-3 md:pt-30  "
       >
         {/* Titulo Proyectos */}
         <h1 className=" text-2xl font-bold md:text-4xl  ">Proyectos Destacados</h1>

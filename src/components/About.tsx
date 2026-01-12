@@ -21,7 +21,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className=" flex flex-col justify-center items-center w-full pt-20 "
+        className=" flex flex-col justify-center items-center w-full pt-30 "
       >
         <h1 className=" mb-10 text-2xl font-bold text-center md:text-4xl ">
           Sobre mi
