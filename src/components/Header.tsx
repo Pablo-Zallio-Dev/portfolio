@@ -33,7 +33,7 @@ const Header = () => {
       return (
             <>
                   {/* header */}
-                  <section className="  fixed bottom-0 z-50 flex justify-around bg-background items-center w-full  md:top-0 md:h-16 md:bg-background/70 md:backdrop-blur-sm ">
+                  <section className="  fixed bottom-0 z-50 flex justify-around bg-background-header items-center w-full py-2 border border-border inset-shadow-sm md:border-gray-200/30 md:inset-shadow-none md:top-0 md:h-20 md:bg-background/70 md:backdrop-blur-sm ">
                         {" "}
                         {/* 👈 Borrar el borde rojo */}
                         {/* Logo Mobile: Se muestra por defecto, se oculta en pantallas medianas (md) */}
@@ -66,7 +66,7 @@ const Header = () => {
                               
                         </section>
                         {/* Navergador Desktop, iria otro compo */}
-                        <nav className="hidden py-10  text-xs   md:block">
+                        <nav className="hidden py-10  text-sm   md:block">
                               <nav className=" flex gap-6 ">
                                     <a
                                           href="#home"
@@ -107,7 +107,7 @@ const Header = () => {
                               <a
                                     href="/public/CV - Pablo Zallio (Español).pdf"
                                     download={"CV - Pablo Zallio (Español).pdf"}
-                                    className=" flex items-center gap-2 px-2 text-xs text-secondary  font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer transition-all duration-200 hover:ring hover:ring-primary hover:bg-primary/10  "
+                                    className=" flex items-center gap-2 px-2 text-sm text-secondary  font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer transition-all duration-200 hover:ring hover:ring-primary hover:bg-primary/10  "
                               >
                                     {" "}
                                     <Download size={16} />
@@ -121,12 +121,12 @@ const Header = () => {
                               } w-full transition-all duration-300 ease-in-out md:hidden`}
                   >
                         <section className=" absolute right-0 w-10/12 h-full shadow-2xl bg-background">
-                              <section className=" flex flex-col items-center justify-center py-12   inset-shadow-sm ">
+                              <section className={` flex flex-col items-center justify-center py-12   opacity-0 scale-75 ${ stateMenu ? `  ` : `opacity-100 scale-100 ` } transition-all delay-300 duration-500 ` }>
                                     <p className="  font-bold ">Pablo Zallio Dev</p>
                                     <p className=" text-[.7rem] text-text ">Front-end Developer</p>
                               </section>
-                              <section className=" flex flex-col justify-center items-center gap-25 pt-20 border-t border-t-border   ">
-                                    <nav className="flex flex-col gap-6 justify-center font-bold ">
+                              <section className={ ` flex flex-col justify-center items-center gap-25 pt-20 border-t border-t-border  ` }>
+                                    <nav className={ ` flex flex-col gap-6 justify-center font-bold   ${ stateMenu ? ` opacity-0 translate-x-40 ` : `opacity-100  ` } transition duration-700 ` }>
                                           <section className="">
                                                 <a
                                                       href="#home"
@@ -177,7 +177,7 @@ const Header = () => {
                                           </section>
                                     </nav>
 
-                                    <section className=" flex flex-col items-center gap-5 w-full pt-3 border-t border-t-border ">
+                                    <section className={ ` flex flex-col items-center gap-5 w-full pt-3 border-t border-t-border opacity-0 ${ stateMenu ? `  ` : `opacity-100 ` } transition-opacity delay-300 duration-700   ` }>
                                           <section className=" flex justify-center gap-30 w-max  p-1.5 px-8 text-text bg-background-btn  rounded-md    ">
                                                 <p className="">Theme</p>
                                                 {theme === "light" ? (

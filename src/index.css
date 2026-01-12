@@ -13,6 +13,7 @@
 :root {
   /* Tus variables HSL */
   --background: 48 26.3% 96.3%;
+  --background-header: 48.6 48.8% 91.6%;
   --background-form: 33.3 25.7% 93.1%;
   --background-btn: 0 0% 90.6%;
   --text: 0 0.7% 26.5%;
@@ -32,6 +33,7 @@
 
 .dark {
   --background: 210 47.1% 6.7%;
+  --background-header: 210 41.7% 14.1%;
   --background-form: 210 34.9% 16.9%;
   --background-btn: 0 0% 14.5%;
   --text: 0 0% 72.5%;
@@ -54,6 +56,7 @@
 
   /* Mapeo de colores usando tus variables HSL */
   --color-background: hsl(var(--background));
+  --color-background-header: hsl(var(--background-header));
   --color-background-form: hsl(var(--background-form));
   --color-background-btn: hsl(var(--background-btn));
   --color-text: hsl(var(--text));

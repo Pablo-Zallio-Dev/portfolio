@@ -2,19 +2,23 @@ import { ArrowRight } from "lucide-react"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiArrowLongDown } from "react-icons/hi2";
 import logo from '../../public/assets/images/logo.webp'
+import logoDark from '../../public/assets/images/logo_dark.webp'
+import { useThemeStore } from "../store/store";
 
 
 
 
 
 const Home = () => {
+       const theme = useThemeStore((state) => state.theme);
       return (
             <>
                   {/* Contenedor Home */}
-                  <section id="home" className=" flex justify-center items-center w-full h-dvh  ">
+                  <section id="home" className=" flex justify-center items-center w-full pt-20  ">
 
                         <section className=" flex flex-col items-center gap-8 px-2 pt-2 max-w-lg  md:gap-12 md:pt-18  md:max-w-3xl lg:max-w-4xl ">
-                              <img src={logo} alt="Imagen de logo Pablo Zallio developer" className=" w-70 sm:w-100 md:hidden " />
+
+                              <img src={theme === "light" ? logo : logoDark} alt="Imagen de logo Pablo Zallio developer" className=" w-70 sm:w-100 md:hidden " />
                               <p className=" px-2 font-geist text-2xl text-center font-bold md:text-3xl lg:text-4xl xl:text-6xl ">Construyo interfaces web que combinan <span className=' text-primary '>rendimiento técnico</span> con <span className=' text-primary '>experiencia de usuario</span>.</p>
                               <p className=" px-4 text-center text-sm text-text leading-6 md:max-w-xl lg:max-w-2xl lg:text-lg lg:leading-8 ">Soy un desarrollador Frontend especializado en React, TypeScript y Tailwind. Me apasiona crear experiencias web rápidas, accesibles y escalables que resuelven problemas reales de usuarios.</p>
                               <section className=" flex flex-col gap-3 items-center lg:mt-10 ">
@@ -39,6 +43,7 @@ const Home = () => {
 
 
                   </section>
+                       
             </>
       )
 }

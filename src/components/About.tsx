@@ -66,7 +66,7 @@ const About = () => {
                  
 
                   <a
-                    className="text-xs font-semibold text-text p-1 rounded-md md:text-sm md:transition-all md:duration-200 hover:text-primary hover:shadow-lg  "
+                    className="text-sm font-semibold text-text p-1 rounded-md md:text-sm md:transition-all md:duration-200 hover:text-primary hover:shadow-lg  "
                     href={tech.link}
                     target="_blank"
                   >

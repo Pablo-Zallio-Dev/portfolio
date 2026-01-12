@@ -73,14 +73,14 @@ const Form = () => {
           className=" flex flex-col gap-4 "
         >
           <div className=" flex flex-col items-start gap-1 ">
-            <label htmlFor="name" className=" font-semibold text-xs ">
+            <label htmlFor="name" className=" font-semibold text-sm ">
               Nombre
             </label>
             <input
             id="name"
               type="text"
               {...register("nombre")}
-              className=" w-full p-1 text-xs bg-background border border-border rounded-md "
+              className=" w-full p-1 text-sm bg-background border border-border rounded-md "
             />
             {errors.nombre && (
               <span className="text-[10px] text-red-500">
@@ -90,14 +90,14 @@ const Form = () => {
           </div>
 
           <div className=" flex flex-col items-start gap-1 ">
-            <label htmlFor="lastname" className=" font-semibold text-xs ">
+            <label htmlFor="lastname" className=" font-semibold text-sm ">
               Apellido
             </label>
             <input
             id="lastname"
               type="text"
               {...register("apellido")}
-              className=" w-full p-1 text-xs bg-background border border-border rounded-md "
+              className=" w-full p-1 text-sm bg-background border border-border rounded-md "
             />
             {errors.apellido && (
               <span className="text-[10px] text-red-500">
@@ -107,14 +107,14 @@ const Form = () => {
           </div>
 
           <div className=" flex flex-col items-start gap-1 ">
-            <label htmlFor="email" className=" font-semibold text-xs ">
+            <label htmlFor="email" className=" font-semibold text-sm ">
               Email
             </label>
             <input
             id="email"
               type="email"
               {...register("email")}
-              className=" w-full p-1 text-xs bg-background border border-border rounded-md "
+              className=" w-full p-1 text-sm bg-background border border-border rounded-md "
             />
             {errors.email && (
               <span className="text-[10px] text-red-500">
@@ -124,13 +124,13 @@ const Form = () => {
           </div>
 
           <div className=" flex flex-col items-start gap-1 ">
-            <label htmlFor="message" className=" font-semibold text-xs ">
+            <label htmlFor="message" className=" font-semibold text-sm ">
               Mensaje
             </label>
             <textarea
               id="message"
               {...register("mensaje")}
-              className=" w-full p-1 text-xs bg-background border border-border rounded-md resize-none "
+              className=" w-full p-1 text-sm bg-background border border-border rounded-md resize-none "
             ></textarea>
           </div>
             {
@@ -146,7 +146,7 @@ const Form = () => {
             Enviar mensaje
           </button>
           {validate && (
-            <p className=" text-center text-xs ">
+            <p className=" text-center text-sm ">
               El mensaje ha sido enviado conexito 👌
             </p>
           )}

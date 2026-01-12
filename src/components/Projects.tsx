@@ -40,7 +40,7 @@ const Projects = () => {
         <h1 className=" text-2xl font-bold md:text-4xl  ">Proyectos Destacados</h1>
 
         {/* Texto proyectos */}
-        <p className=" text-text text-xs text-center leading-5 md:w-110 md:text-base  ">
+        <p className=" text-text text-sm text-center leading-5 md:w-110 md:text-base  ">
           Una selección de proyectos que demuestran mi experiencia en desarrollo
           frontend.
         </p>
@@ -56,9 +56,9 @@ const Projects = () => {
                                     <section className=" overflow-hidden ">
                                           <img src={project.image} alt={`Imagen del proyecto ${project.title}`} className=" aspect-video w-full object-cover object-top " />
                                     </section>
-                                    <section className=" flex flex-col justify-between gap-3 h-52 p-6 md:h-60 ">
+                                    <section className=" flex flex-col justify-between gap-3 h-52 p-6 md:h-60  ">
                                           <h2 className=" font-bold md:text-lg ">{project.title}</h2>
-                                          <p className=" h-12 text-text text-[.7rem] md:text-xs ">{project.description}</p>
+                                          <p className="  text-text text-[.8rem] md:text-sm  ">{project.description}</p>
 
                                           <section className=" flex gap-1  ">
                                                 {
@@ -71,11 +71,11 @@ const Projects = () => {
 
                                           <section className=" flex w-full justify-center gap-4 justify-self-center mt-4 ">
 
-                                                <a href={project.links.demo} className=" flex items-center justify-center gap-2 px-3 text-[.7rem] text-secondary font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer md:transition-all md:duration-200 hover:ring hover:ring-primary hover:bg-primary/10 md:py md:text-xs " target="_blank"> <HiOutlineExternalLink /> Demo en vivo</a>
+                                                <a href={project.links.demo} className=" flex items-center justify-center gap-2 px-3 text-[.7rem] text-secondary font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer md:transition-all md:duration-200 hover:ring hover:ring-primary hover:bg-primary/10 md:py md:text-sm " target="_blank"> <HiOutlineExternalLink /> Demo en vivo</a>
                                                 {
                                                       project.links.code && (
 
-                                                            <a href={project.links.code} className=" flex items-center justify-center gap-2 px-3 text-[.7rem] text-secondary font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer md:transition-all md:duration-200  hover:ring hover:ring-primary hover:bg-primary/10 md:py md:text-xs " target="_blank"> <FiGithub /> Código</a>
+                                                            <a href={project.links.code} className=" flex items-center justify-center gap-2 px-3 text-[.7rem] text-secondary font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer md:transition-all md:duration-200  hover:ring hover:ring-primary hover:bg-primary/10 md:py md:text-sm " target="_blank"> <FiGithub /> Código</a>
                                                       )
                                                 }
                                                 
