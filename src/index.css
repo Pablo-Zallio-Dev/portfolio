@@ -1,4 +1,4 @@
-@import "tailwindcss";
+      @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Tu fuente Geist */
@@ -13,7 +13,7 @@
 :root {
   /* Tus variables HSL */
   --background: 48 26.3% 96.3%;
-  --background-header: 48.6 48.8% 91.6%;
+  --background-header: 35 40% 94.1%;
   --background-form: 33.3 25.7% 93.1%;
   --background-btn: 0 0% 90.6%;
   --text: 0 0.7% 26.5%;
