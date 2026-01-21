@@ -1,7 +1,7 @@
 {
       "project_01": {
             "id": "01",
-            "image": "../assets/images/image_json/project_01.png",
+            "image": "/public/image_project/project_01.webp",
             "title": "EG Design System",
             "description": "Systema de Diseño para interfaces y componentes web",
             "category": "Design System",
@@ -17,26 +17,29 @@
             },
             "uiStyle": "Dark dashboard"
       },
+      
       "project_02": {
             "id": "02",
-            "image": "../assets/images/image_json/project_02.png",
-            "title": "Landing Page - Puro Ganado",
-            "description": "Landing page de productos cárnicos. Navegación rápida enfocada en la frescura del género, la identidad y ubicación local.",
+            "image": "/public/image_project/project_02.webp",
+            "title": "Job App",
+            "description": "Job App es una aplicación web diseñada para ayudar a los usuarios a gestionar y hacer seguimiento de sus solicitudes de empleo de forma clara, organizada y visual.",
             "category": "Landing page",
             "technologies": [
-                  "HTML",
-                  "CSS",
-                  "JavaScript"
+                  "React",
+                  "Typescript",
+                  "Tailwind",
+                  "Reac Hook Form + Zod"
             ],
             "links": {
-                  "demo": "https://puro-ganado.vercel.app/"
+                  "demo": "https://job-app-phi-six.vercel.app/",
+                  "code": "https://github.com/Pablo-Zallio-Dev/job-app"
                   
             },
             "uiStyle": "Dark dashboard"
       },
       "project_03": {
             "id": "03",
-            "image": "../assets/images/image_json/project_03.png",
+            "image": "/public/image_project/project_03.webp",
             "title": "App web - Dictionary",
             "description": "Diccionario con soporte de audio para pronunciación, gestión de temas visuales y una interfaz limpia centrada en la experiencia del usuario.  ",
             "category": "Landing page",
@@ -48,6 +51,24 @@
             "links": {
                   "demo": "https://fem-dictionary-web-app.vercel.app/#House",
                   "code": "https://github.com/Pablo-Zallio-Dev/dictionary-app"
+                  
+            },
+            "uiStyle": "Dark dashboard"
+      },
+      "project_04": {
+            "id": "04",
+            "image": "/public/image_project/project_04.jpg",
+            "title": "Quizz app",
+            "description": "Aplicación web de preguntas y respuestas construida con React que integra fetching de datos desde API externa, manejo de estado reactivo, componentes reutilizables y lógica de puntuación.",
+            "category": "Landing page",
+            "technologies": [
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS"
+            ],
+            "links": {
+                  "demo": "https://quiz-app-omega-orpin.vercel.app/",
+                  "code": "https://github.com/Pablo-Zallio-Dev/quiz-app"
                   
             },
             "uiStyle": "Dark dashboard"
