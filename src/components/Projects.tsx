@@ -47,16 +47,16 @@ const Projects = () => {
 
         {/* Contenedor de tarjetas */}
         <section className=" flex justify-center w-full ">
-          <section className=" flex flex-wrap justify-center w-75 md:w-200 xl:w-300  items-center gap-8  py-6 rounded-xl  md:px-6  ">
+          <section className=" flex flex-wrap justify-center items-stretch w-75 md:w-200 xl:w-300  gap-8  py-6 rounded-xl  md:px-6  ">
             {
 
                   projects.map((project) => (
-                         <section className="  bg-secondary-foreground w-75 xl:w-120 shadow-lg py-6 rounded-xl border border-border/50 transition-all duration-300 hover:-translate-y-3 hover:shadow-xl ">
+                         <section className=" flex flex-col items-stretch  bg-secondary-foreground w-75 xl:w-120 shadow-lg py-6 rounded-xl border border-border/50 transition-all duration-300 hover:-translate-y-3 hover:shadow-xl ">
 
                                     <section className=" overflow-hidden ">
                                           <img src={project.image} alt={`Imagen del proyecto ${project.title}`} className=" aspect-video w-full object-cover object-top " />
                                     </section>
-                                    <section className=" flex flex-col justify-between gap-3 h-52 p-6 md:h-60  ">
+                                    <section className=" flex flex-col justify-between grow gap-3 xl:gap-8 p-6 ">
                                           <h2 className=" font-bold md:text-lg ">{project.title}</h2>
                                           <p className="  text-text text-[.8rem] md:text-sm  ">{project.description}</p>
 
