@@ -23,9 +23,9 @@ const About = () => {
                         id="about"
                         className=" flex flex-col justify-center items-center w-full pt-30 "
                   >
-                        <h1 className=" mb-10 text-2xl font-bold text-center md:text-4xl ">
+                        <h2 className=" mb-10 text-2xl font-bold text-center md:text-4xl ">
                               Sobre mi
-                        </h1>
+                        </h2>
                         <section className=" flex flex-col justify-center items-center gap-22 p-3 lg:flex-row md:p-10 xl:max-w-325  ">
                               {/* contenedor del texto */}
                               <section className=" px-3 md:w-10/12 lg:w-1/2 ">

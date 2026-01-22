@@ -37,7 +37,7 @@ const Projects = () => {
         className=" flex flex-col items-center justify-center gap-6 w-full pt-8 px-3 md:pt-30  "
       >
         {/* Titulo Proyectos */}
-        <h1 className=" text-2xl font-bold md:text-4xl  ">Proyectos Destacados</h1>
+        <h2 className=" text-2xl font-bold md:text-4xl  ">Proyectos Destacados</h2>
 
         {/* Texto proyectos */}
         <p className=" text-text text-sm text-center leading-5 md:w-110 md:text-base  ">

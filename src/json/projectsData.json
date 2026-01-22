@@ -57,7 +57,7 @@
       },
       "project_04": {
             "id": "04",
-            "image": "/image_project/project_04.jpg",
+            "image": "/image_project/project_04.webp",
             "title": "Quizz app",
             "description": "Aplicación web de preguntas y respuestas construida con React que integra fetching de datos desde API externa, manejo de estado reactivo, componentes reutilizables y lógica de puntuación.",
             "category": "Landing page",
