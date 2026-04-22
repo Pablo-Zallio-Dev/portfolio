@@ -17,6 +17,26 @@
             },
             "uiStyle": "Dark dashboard"
       },
+       "project_05": {
+            "id": "05",
+            "image": "/image_project/project_05.webp",
+            "title": "Exclusive e-commerce",
+            "description": "Tienda online de moda y electrónica desarrollada como proyecto de portfolio. Diseño moderno, responsive y con funcionalidades de e-commerce completas.",
+            "category": "E-commerce",
+            "technologies": [
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Zustand",
+                  "Reac Hook Form & Zod"
+            ],
+            "links": {
+                  "demo": "https://exclusive-shop-snowy.vercel.app/",
+                  "code": "https://github.com/Pablo-Zallio-Dev/exclusiveShop/tree/main"
+                  
+            },
+            "uiStyle": "Dark dashboard"
+      },
       
       "project_02": {
             "id": "02",
@@ -69,26 +89,6 @@
             "links": {
                   "demo": "https://quiz-app-omega-orpin.vercel.app/",
                   "code": "https://github.com/Pablo-Zallio-Dev/quiz-app"
-                  
-            },
-            "uiStyle": "Dark dashboard"
-      },
-      "project_05": {
-            "id": "05",
-            "image": "/image_project/project_05.webp",
-            "title": "Exclusive e-commerce",
-            "description": "Tienda online de moda y electrónica desarrollada como proyecto de portfolio. Diseño moderno, responsive y con funcionalidades de e-commerce completas.",
-            "category": "E-commerce",
-            "technologies": [
-                  "React",
-                  "TypeScript",
-                  "Tailwind CSS",
-                  "Zustand",
-                  "Reac Hook Form & Zod"
-            ],
-            "links": {
-                  "demo": "https://exclusive-shop-snowy.vercel.app/",
-                  "code": "https://github.com/Pablo-Zallio-Dev/exclusiveShop/tree/main"
                   
             },
             "uiStyle": "Dark dashboard"
