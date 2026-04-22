@@ -10,7 +10,7 @@ import { useThemeStore } from "../store/store";
 
 
 const Home = () => {
-       const theme = useThemeStore((state) => state.theme);
+      const theme = useThemeStore((state) => state.theme);
       return (
             <>
                   {/* Contenedor Home */}
@@ -43,7 +43,7 @@ const Home = () => {
 
 
                   </section>
-                       
+
             </>
       )
 }
