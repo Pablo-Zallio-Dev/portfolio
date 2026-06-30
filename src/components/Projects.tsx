@@ -63,7 +63,7 @@ const Projects = () => {
                                           <section className=" flex gap-1  ">
                                                 {
                                                       project.technologies.map((tech) => (
-                                                            <p className=" w-max py-0.5 px-1 text-[.65rem] rounded-sm text-primary border border-primary/50 bg-primary/20 "> { tech } </p>
+                                                            <p className=" w-max h-min py-0.5 px-1 text-[.65rem] rounded-sm text-primary border border-primary/50 bg-primary/20 "> { tech } </p>
 
                                                 ))
                                                 }

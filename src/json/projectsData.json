@@ -1,21 +1,21 @@
 {
       "project_01": {
             "id": "01",
-            "image": "/image_project/project_01.webp",
-            "title": "EG Design System",
-            "description": "Systema de Diseño para interfaces y componentes web",
-            "category": "Design System",
+            "image": "/image_project/project_06.webp",
+            "title": "Cosas Ricas 2",
+            "description": "Pagina web para una pasteleria artesanal",
+            "category": "Frontend developer",
             "technologies": [
-                  "React",
+                  "NextJS",
                   "TypeScript",
                   "Tailwind CSS",
-                  "Storybook"
+                  "React Hook Form"
             ],
             "links": {
-                  "demo": "https://egdev6-design-system.netlify.app/?path=/docs/design-system-welcome--docs",
-                  "code": "https://github.com/egdev6/design-system"
+                  "demo": "https://cosas-ricas.vercel.app/",
+                  "code": "https://github.com/Pablo-Zallio-Dev/cosas_ricas"
             },
-            "uiStyle": "Dark dashboard"
+            "uiStyle": ""
       },
        "project_05": {
             "id": "05",
