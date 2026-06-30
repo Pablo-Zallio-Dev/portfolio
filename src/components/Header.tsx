@@ -106,7 +106,7 @@ const Header = () => {
 
                               <a
                                     href="/public/CV - Pablo Zallio (Español).pdf"
-                                    download={"CV - Pablo Zallio (Español).pdf"}
+                                    download={"CV_ES_Pablo_Zallio.pdf"}
                                     className=" flex items-center gap-2 px-2 text-sm text-secondary  font-semibold  rounded-md shadow-xs shadow-muted cursor-pointer transition-all duration-200 hover:ring hover:ring-primary hover:bg-primary/10  "
                               >
                                     {" "}
